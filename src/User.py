@@ -12,8 +12,7 @@ class User:
         elif self.lordsVarible not in name:
             print("Username must contain Linux (the lords varible)")
             return False
-        else:
-            return True
+        return True
     def userNameGood(self):
         if self.checkUserName(self.username) == False:
             print("user name must have Linux in it and be greater then 2 characters")
